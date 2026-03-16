@@ -1,0 +1,18 @@
+{
+  "name": "ecommerce-irede",
+  "version": "1.0.0",
+  "description": "Este repositório contém o desenvolvimento do projeto de e-commerce do curso Web Full-stack Irede. O foco inicial é a aplicação de Programação Orientada a Objetos (POO) e Tipagem Avançada utilizando TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Executando testes...\" && ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
