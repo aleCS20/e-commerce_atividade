@@ -4,6 +4,9 @@
   "description": "Este repositório contém o desenvolvimento do projeto de e-commerce do curso Web Full-stack Irede. O foco inicial é a aplicação de Programação Orientada a Objetos (POO) e Tipagem Avançada utilizando TypeScript.",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
     "start": "ts-node src/index.ts",
     "test": "echo \"Executando testes...\" && ts-node src/index.ts"
   },
@@ -12,7 +15,13 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^25.5.0",
+    "@vitejs/plugin-vue": "^5.1.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vite": "^5.4.11",
+    "vue-tsc": "^3.2.5"
+  },
+  "dependencies": {
+    "vue": "^3.5.30"
   }
 }
