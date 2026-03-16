@@ -23,8 +23,8 @@ O objetivo desta entrega é estruturar as classes base do sistema e implementar 
 ### 📝 Como executar
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/ecommerce-irede.git]
-   (https://github.com/seu-usuario/ecommerce-irede.git)
+   git clone [git@github.com:aleCS20/e-commerce_atividade.git]
+   (https://github.com/aleCS20/ecommerce_atividade.git)
 
    ```
    
