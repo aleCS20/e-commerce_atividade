@@ -23,11 +23,12 @@ O objetivo desta entrega é estruturar as classes base do sistema e implementar 
 ### 📝 Como executar
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/ecommerce-irede.git]
-   (https://github.com/seu-usuario/ecommerce-irede.git)
+   git clone [git@github.com:aleCS20/e-commerce_atividade.git]
+   (https://github.com/aleCS20/ecommerce_atividade.git)
 
    ```
    
+<<<<<<< HEAD
    --------------------------------------------------------------------------------------
 
 ## 🚀 Atividade 2: Interface com Vue.js (Options API)
@@ -51,3 +52,5 @@ Nesta etapa, a lógica de negócio desenvolvida na Fase 1 foi integrada a uma in
 2. Instale as dependências (caso não tenha feito):
    ```bash
    npm install
+=======
+>>>>>>> 507ad40311bc9f1815cdabdff99fb6e968ebcbfe
