@@ -54,3 +54,41 @@ Nesta etapa, a lógica de negócio desenvolvida na Fase 1 foi integrada a uma in
    npm install
 =======
 >>>>>>> 507ad40311bc9f1815cdabdff99fb6e968ebcbfe
+
+
+=======================================
+
+# E-commerce Atividade 🛒
+
+Projeto desenvolvido para as atividades práticas de Vue.js + TypeScript.
+
+## 🚀 Atividade 3: UI Evolution (Entregue em 19/03)
+
+Nesta fase, a interface foi migrada de CSS puro para uma stack profissional utilizando **PrimeVue** e **Tailwind CSS**.
+
+### ✅ Implementações:
+- **PrimeVue v4**: Uso de componentes ricos como `Card`, `Button` e `InputNumber`.
+- **Tailwind CSS**: Layout responsivo via Grid e estilização utilitária.
+- **Model Rica**: A lógica de negócio no `Cart.ts` continua gerenciando o estado do carrinho.
+
+---
+
+## 🛠️ Guia de Compatibilidade (Crucial para novos Clones)
+
+Devido a conflitos de "Native Bindings" observados em ambientes Windows com Node v18, este projeto utiliza as seguintes versões específicas para garantir estabilidade:
+
+| Tecnologia | Versão Compatível | Motivo |
+| :--- | :--- | :--- |
+| **Node.js** | `v18.12.0` | Versão instalada no ambiente de desenvolvimento. |
+| **Tailwind CSS** | `v3.4.17` | Versão estável que evita erros do motor Oxide (v4) no Windows. |
+| **PrimeVue** | `v4.x` | Última versão estável para componentes UI. |
+| **@primeuix/themes**| `v4.x` | Novo padrão de temas do PrimeVue. |
+| **TypeScript** | `moduleResolution: "bundler"` | Necessário no `tsconfig.json` para resolver imports do PrimeVue. |
+
+### Como Rodar em Outro Computador:
+1. Clone o repositório.
+2. Certifique-se de estar usando o Node v18 ou superior.
+3. **Limpeza preventiva**:
+   ```powershell
+   Remove-Item -Recurse -Force node_modules, package-lock.json
+
