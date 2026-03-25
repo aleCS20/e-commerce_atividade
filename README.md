@@ -92,3 +92,10 @@ Devido a conflitos de "Native Bindings" observados em ambientes Windows com Node
    ```powershell
    Remove-Item -Recurse -Force node_modules, package-lock.json
 
+==============================================
+
+## 🚀 Atividade 5: Arquitetura de Rotas e Segurança
+- Implementação de **Vue Router** com layouts aninhados.
+- **Layouts Distintos**: Interface Consumidor (Aura/Light) vs Admin (Slate/Dark).
+- **Navigation Guards**: Proteção de rotas para Checkout e área Administrativa.
+- **DataTable**: Gestão de dados avançada na área administrativa.
